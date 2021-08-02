@@ -19,7 +19,7 @@ There are two datasets of dogs and humans.  The dog dataset consists of 133 cate
 
 <p align="center">
 <b>Figure 1 - Dog Breed Classification Output</b>
-<img src = "./readme_imgs/overview.png?raw=true" width="75%"/>
+<img src = "./readme_imgs/overview.PNG?raw=true" width="75%"/>
 </p>
 
 On the notebook we will explore several tasks including a vanilla deep learning model and finally explore transfer learning methods and data agumentation for increase accuracy.
@@ -166,25 +166,25 @@ We first started with a small approach using a vanilla implementation of a neura
 
 <p align="center">
 <b>Figure 2 - Vanilla Convolutional Neural Network </b>
-<img src = "./readme_imgs/vanilla_cnn.png?raw=true" width="75%"/>
+<img src = "./readme_imgs/vanilla_cnn.PNG?raw=true" width="75%"/>
 </p>
 
 Later we explored with a VGG16 pre-trained model without data augmentation method
 
 <p align="center">
 <b>Figure 3 - VGG16 Pretrained Model </b>
-<img src = "./readme_imgs/vgg16_pretrained.png?raw=true" width="75%"/>
+<img src = "./readme_imgs/vgg16_pretrained.PNG?raw=true" width="75%"/>
 </p>
 
 Finally we used an Inception model to do transfer learning with data augmentation.
 
 <p align="center">
 <b>Figure 4 - Inception Model </b>
-<img src = "./readme_imgs/inception_tl.png?raw=true" width="75%"/>
+<img src = "./readme_imgs/inception_tl.PNG?raw=true" width="75%"/>
 </p>
 <p align="center">
 <b>Figure 5 - Data Augmentation Pipeline </b>
-<img src = "./readme_imgs/data_augmentation.png?raw=true" width="75%"/>
+<img src = "./readme_imgs/data_augmentation.PNG?raw=true" width="75%"/>
 </p>
 
 ## Results
@@ -193,12 +193,12 @@ We can show below the image of the results of the model:
 
 <p align="center">
 <b>Figure 6 - Fisrt 3 results </b>
-<img src = "./readme_imgs/results_1.png?raw=true" width="75%"/>
+<img src = "./readme_imgs/results_1.PNG?raw=true" width="75%"/>
 </p>
 
 <p align="center">
 <b>Figure 7 - Last 3 results </b>
-<img src = "./readme_imgs/results_2.png?raw=true" width="75%"/>
+<img src = "./readme_imgs/results_2.PNG?raw=true" width="75%"/>
 </p>
 
 Below you will se a table of the results of the training, validation and test datasets over different models and its metrics.
