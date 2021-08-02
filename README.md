@@ -181,6 +181,7 @@ Finally we used an Inception model to do transfer learning with data augmentatio
 <p align="center">
 <b>Figure 4 - Inception Model </b>
 <img src = "./readme_imgs/inception_tl.PNG?raw=true" width="75%"/>
+
 </p>
 <p align="center">
 <b>Figure 5 - Data Augmentation Pipeline </b>
