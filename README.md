@@ -172,14 +172,14 @@ We first started with a small approach using a vanilla implementation of a neura
 Later we explored with a VGG16 pre-trained model without data augmentation method
 
 <p align="center">
-<b>Figure 3 - VGG16 Pretrained Model </b>
+<b>Figure 3 - VGG16 Pretrained Model Using Transfer Learning Technique </b>
 <img src = "./readme_imgs/vgg16_pretrained.PNG?raw=true" width="75%"/>
 </p>
 
 Finally we used an Inception model to do transfer learning with data augmentation.
 
 <p align="center">
-<b>Figure 4 - Inception Model </b>
+<b>Figure 4 - Inception Model Using Transfer Learning Technique </b>
 <img src = "./readme_imgs/inception_tl.PNG?raw=true" width="75%"/>
 
 </p>
@@ -193,16 +193,20 @@ Finally we used an Inception model to do transfer learning with data augmentatio
 We can show below the image of the results of the model:
 
 <p align="center">
-<b>Figure 6 - Fisrt 3 results </b>
+<b>Figure 6 - First 3 results of the Dog Breed Classifier Output </b>
 <img src = "./readme_imgs/results_1.PNG?raw=true" width="75%"/>
 </p>
 
 <p align="center">
-<b>Figure 7 - Last 3 results </b>
+<b>Figure 8 - Last 3 results of the Dog Breed Classifier Output </b>
 <img src = "./readme_imgs/results_2.PNG?raw=true" width="75%"/>
 </p>
 
 Below you will se a table of the results of the training, validation and test datasets over different models and its metrics.
+
+<center>
+
+Table 1.  Training Results using Different CNN Configurations.
 
 | - | Vanilla CNN  |  VGG16 | Inception |
 |---|---|---|---|
@@ -212,6 +216,7 @@ Below you will se a table of the results of the training, validation and test da
 |  Validation Loss |  3.6114 |  8.4304 | 0.5816  | 
 |  Validation Accuracy |  0.1310 |  0.4156 | 0.8546  |
 | Test Accuracy Metric | 17.58%| 41.86% | 81.1% |
+</center>
 
 <details open>
 <summary> :iphone: <b>Having Problems?<b></summary>
