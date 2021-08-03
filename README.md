@@ -18,6 +18,23 @@ If a dog or human is predicted on the image it will return back the breed of the
 There are two datasets of dogs and humans.  The dog dataset consists of 133 categories of dogs and with a total of 8351 images itself divided in 6680 training images, 835 validation images and 836 testing images for model metrics.
 
 <p align="center">
+<b>Table 1 - Description of the Dog Breed. 75% of breeds are class 92, 50% of class 59 and 25% of class 30 of breeds id  </b>
+
+<img src = "./readme_imgs/describe_dataset.PNG?raw=true" width="20%"/>
+
+</p>
+
+<p align="center">
+<b>Graph 1 - Count of Dataset Distribution </b>
+<img src = "./readme_imgs/dataset_distribution.PNG?raw=true" width="100%"/>
+</p>
+
+<p align="center">
+<b>Figure 1 - Dog Breed Classification Output</b>
+<img src = "./readme_imgs/overview.PNG?raw=true" width="75%"/>
+</p>
+
+<p align="center">
 <b>Figure 1 - Dog Breed Classification Output</b>
 <img src = "./readme_imgs/overview.PNG?raw=true" width="75%"/>
 </p>
@@ -206,16 +223,16 @@ Below you will se a table of the results of the training, validation and test da
 
 <center>
 
-Table 1.  Training Results using Different CNN Configurations.
+Table 2.  Training Results using Different CNN Configurations.
 
 | - | Vanilla CNN  |  VGG16 | Inception |
 |---|---|---|---|
 |  Data Augmentation | No | Yes | Yes |
-|  Training Loss | 3.1444  |  7.7105 | 0.0366  |
-|  Training Accuracy |  0.2401 |  0.5115 | 0.9915  |
-|  Validation Loss |  3.6114 |  8.4304 | 0.5816  | 
-|  Validation Accuracy |  0.1310 |  0.4156 | 0.8546  |
-| Test Accuracy Metric | 17.58%| 41.86% | 81.1% |
+|  Training Loss | 3.1555  |  7.451 | 0.0297  |
+|  Training Accuracy |  0.2394 |  0.5935 | 0.9949  |
+|  Validation Loss |  3.6421 |  8.1453 | 0.5334  | 
+|  Validation Accuracy |  0.1538 |  0.4275 | 0.8582  |
+| Test Accuracy Metric | 16.62%| 42.7033% | 83.0144% |
 </center>
 
 <details open>
